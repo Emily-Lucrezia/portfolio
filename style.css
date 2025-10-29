@@ -17,6 +17,12 @@ header {
   text-align: center;
 }
 
+/* Ensure header h1 stays white */
+header h1 {
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
 /* Navigation styling */
 nav ul {
   list-style: none;
@@ -51,7 +57,7 @@ main {
 }
 
 /* Section headings */
-h1, h2 {
+h2 {
   color: #4B0082;
 }
 
